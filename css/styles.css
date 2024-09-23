@@ -1,0 +1,100 @@
+/* Universal styles */
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+body{
+    min-height: 100vh;
+    background: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d9d9d9;
+}
+
+/* Main headline on front page */
+#mainH1{
+    text-align: center;
+    font-size: 4vh;
+}
+header{
+    margin-top: 2%;
+}
+
+/* Navbar styling */
+nav {
+    background-color: #7a7a7a;
+    
+    
+}
+nav ul {
+    width: 100vd;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav li {
+    height: 40px;
+}
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+/* Grid container styling */
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4vh;
+    width: 90vw;
+    height: 60vh;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    overflow: auto;
+    column-gap: normal;
+    font-size: 1.85vh;
+    
+
+}
+
+/* Grid Item styling */
+
+.item one {
+    overflow: auto;
+    font-size: 1.85vh;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-content: center;
+}
+
+.item two {
+    width: 45vd;
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    align-items: center;
+    
+}
+
+
+
+.item footer {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+#profile {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;      
+}
+

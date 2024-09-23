@@ -1,40 +1,49 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
     <head>
-        <title>Thursfield</title>
-        <link rel="stylesheet" href="CSS/stylesheet.css">
+        <title>Thursfield's Website</title>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body style="background-color: grey">
+    
+    <body>
         
         <header>
-            <h1>Thursfield's Website </h1>
-            
+            <h1 id="mainH1">Thursfield's Website</h1>
         </header>
-        
-        <section id="menu">
-            <h6 style="float: left;">Projects <br><br>
-            Contact</h6>
-        </section>
 
-        <section>
-            
-            <img style="float: right;" src="img/profilepic2blackwhite.png" alt="Picture of Daniel Thursfield">
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
 
-            <h2>Who am I?</h2>
+        <main>
+            <div id="container">
+                <div class="item one"><h2>Who am I?</h2>
+                    <br>
+                    <p>Hi, and welcome to my little part of the world wide web. My name is Daniel Thursfield.</p>
+                
+                
+                    
+                    <p class="text">I'm a 40 something Swede, currently working as a night receptionist in Denmark for a large hotel chain.</p>
+                    <br>
+                    <p>I'm into all things tech, video games and more or less anything related to it. Apart from that I also enjoy running. Done a few marathons and other races in my days.</p>
+                
+                <br><br>
+                
+                    <h2>Why this website?</h2>
+                    <p>The purpose of this website is for me to practice and learn web development / programming. In the future this is something I aim to work with. </p></div>
+                <div class="item two"><img src="img/profilepic2blackwhite.png" id="profile"></div>
+                
 
-            <p>Hi, and welcome to my little part of the world wide web. My name is Daniel Thursfield.</p>
-        </section>
-        <section>
-            <p>I'm a 40 something Swede, currently working as a night receptionist in Denmark for a large hotel chain. </p>
-            
-            <p>I'm into all things tech, video games and more or less anything related to it. Apart from that I also enjoy running. Done a few marathons and other races in my days.</p>
-        
-        </section>
-        <section>
-            <h2>Why this website?</h2>
-            <p>The purpose of this website is for me to practice and learn web development / programming. In the future this is something I aim to work with. </p>
-        </section>
+            </div>
+        </main>
     </body>
 </html>
